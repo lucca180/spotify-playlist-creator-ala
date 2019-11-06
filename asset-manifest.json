@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/spotify-playlist-creator-ala/static/css/main.22253894.chunk.css",
-    "main.js": "/spotify-playlist-creator-ala/static/js/main.2bf4636a.chunk.js",
-    "main.js.map": "/spotify-playlist-creator-ala/static/js/main.2bf4636a.chunk.js.map",
+    "main.css": "/spotify-playlist-creator-ala/static/css/main.761cd9b0.chunk.css",
+    "main.js": "/spotify-playlist-creator-ala/static/js/main.ffcf657e.chunk.js",
+    "main.js.map": "/spotify-playlist-creator-ala/static/js/main.ffcf657e.chunk.js.map",
     "runtime-main.js": "/spotify-playlist-creator-ala/static/js/runtime-main.044e8c71.js",
     "runtime-main.js.map": "/spotify-playlist-creator-ala/static/js/runtime-main.044e8c71.js.map",
     "static/js/2.ff22b040.chunk.js": "/spotify-playlist-creator-ala/static/js/2.ff22b040.chunk.js",
     "static/js/2.ff22b040.chunk.js.map": "/spotify-playlist-creator-ala/static/js/2.ff22b040.chunk.js.map",
     "index.html": "/spotify-playlist-creator-ala/index.html",
-    "precache-manifest.a9c0aba1cf828eccff9925bf3a976cc3.js": "/spotify-playlist-creator-ala/precache-manifest.a9c0aba1cf828eccff9925bf3a976cc3.js",
+    "precache-manifest.9c9986cd78b33a49975ab03b6ee3fbf4.js": "/spotify-playlist-creator-ala/precache-manifest.9c9986cd78b33a49975ab03b6ee3fbf4.js",
     "service-worker.js": "/spotify-playlist-creator-ala/service-worker.js",
-    "static/css/main.22253894.chunk.css.map": "/spotify-playlist-creator-ala/static/css/main.22253894.chunk.css.map"
+    "static/css/main.761cd9b0.chunk.css.map": "/spotify-playlist-creator-ala/static/css/main.761cd9b0.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.044e8c71.js",
     "static/js/2.ff22b040.chunk.js",
-    "static/css/main.22253894.chunk.css",
-    "static/js/main.2bf4636a.chunk.js"
+    "static/css/main.761cd9b0.chunk.css",
+    "static/js/main.ffcf657e.chunk.js"
   ]
 }
