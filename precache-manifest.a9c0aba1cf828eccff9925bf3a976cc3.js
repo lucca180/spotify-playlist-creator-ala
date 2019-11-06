@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0c00426ba1d6860a5ba1d5ff3b4afe4",
+    "revision": "d8e6c0bc881ff026a80d24e2703facfd",
     "url": "/spotify-playlist-creator-ala/index.html"
   },
   {
-    "revision": "efcfe7e4ea1d710568af",
+    "revision": "e017abb612aa499e0347",
     "url": "/spotify-playlist-creator-ala/static/css/main.22253894.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/spotify-playlist-creator-ala/static/js/2.ff22b040.chunk.js"
   },
   {
-    "revision": "efcfe7e4ea1d710568af",
-    "url": "/spotify-playlist-creator-ala/static/js/main.831426a5.chunk.js"
+    "revision": "e017abb612aa499e0347",
+    "url": "/spotify-playlist-creator-ala/static/js/main.2bf4636a.chunk.js"
   },
   {
     "revision": "eb8b877e2c8f20e6b64d",
