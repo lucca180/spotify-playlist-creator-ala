@@ -39,8 +39,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      // token: null,
-      token: 'BQBj4vDz_EdLee8PA-ASRqp6rsCf_Z28yNywITEg5LrtjTXZemv7ttJ69RDILnRQhoWmYVUqw6f0vBj81Oqgaz9jsolP24SsLSf70Wv0z3th3x6mCTK6zqi9tl8a4UJaUTK_QTntw9-z6wQ9wyroqApWDEGIC0ZKRwTc5VeHIcmbHDg'
+      token: null,
     }
   }
   componentDidMount() {
