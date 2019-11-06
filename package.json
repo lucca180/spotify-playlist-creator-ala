@@ -1,11 +1,15 @@
 {
-  "name": "my-app",
+  "name": "projeto-ala",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.5.2",
+    "mathjs": "^6.2.3",
+    "numjs": "^0.16.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "spotify-web-api-js": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,22 +1,100 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
-.App-link {
-  color: #09d3ac;
+
+.App-header {
+  padding: 3%;
+  color: #fff;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-weight: bolder;
+  text-transform:  uppercase;
+  margin-bottom: 10px;
+}
+
+h2, h3{
+  margin-top: 0;
+  font-weight: lighter;
+}
+
+.btn-login {
+  height: 50px;
+  width: 200px;
+  background: #1DB954;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.content{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addButton{
+  margin: 0 20px;
+}
+
+.searchInput{
+  margin: 16px 0;
+}
+
+.searchResult{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.songCard{
+  width: 300px;
+  height: 400px;
+  margin: 5px;
+}
+
+.selected{
+  border: 3px solid #1DB954;
+}
+
+.songCard .avatar{
+  margin: 0;
+}
+
+.cardMedia{
+  padding-top: 300px;
+}
+
+.cardContent{
+  display: flex;
+}
+
+.info{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin-right: 48px;
 }
