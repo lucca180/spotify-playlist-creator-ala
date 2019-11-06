@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/spotify-playlist-creator-ala/precache-manifest.4cff9c22e8ce63c70bb0221bc9f23f7a.js"
+  "/spotify-playlist-creator-ala/precache-manifest.ae816d31908d652d1db78d22dbe7b0e9.js"
 );
 
 self.addEventListener('message', (event) => {
