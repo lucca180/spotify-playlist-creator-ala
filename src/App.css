@@ -26,6 +26,11 @@ h2, h3{
   font-weight: lighter;
 }
 
+a {
+    color: #1db954;
+    text-decoration: none;
+}
+
 .btn-login {
   height: 50px;
   width: 200px;

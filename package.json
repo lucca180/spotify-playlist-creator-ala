@@ -2,7 +2,7 @@
   "name": "projeto-ala",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://lucca180.github.io/spotify-playlist-creator-ala",
+  "homepage": "https://lucca180.github.io/spotify-playlist-creator-ala",
   "dependencies": {
     "@material-ui/core": "^4.5.2",
     "gh-pages": "^2.1.1",

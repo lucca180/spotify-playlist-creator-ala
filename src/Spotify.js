@@ -35,14 +35,14 @@ class SpotifyContent extends Component {
   }
 
   onChange = event => {
-  	if(event.target.value === "") 
+  	if(event.target.value === "")
   		this.setState({
   			searchText: '',
   			searchResult: null,
   			selectedArr: [],
   		})
 
-  	else 
+  	else
 	  	this.setState({
 	  		searchText: event.target.value
 	  	})
@@ -242,6 +242,16 @@ class SpotifyContent extends Component {
 		this.setState({openDialog: !this.state.openDialog});
 	}
 
+	clearAll = () => {
+		this.setState({
+			searchText: '',
+	  	searchResult: null,
+	  	selectedArr: [],
+	  	playlist: [],
+	  	openDialog: false,
+		})
+	}
+
 	render() {
 		const {RenderSearch, RenderPlaylist} = this;
 		const {selectedArr, searchText, playlist, openDialog, searchResult} = this.state
@@ -249,9 +259,9 @@ class SpotifyContent extends Component {
 	    <div className="content">
 	    	<DialogBox open={openDialog} toggle={this.toggleDialog} playlist={playlist} load={this.loadIds}/>
 	    		<div className="search">
-	    			<TextField className="searchInput" label="Pesquisar Música" margin="normal" variant="outlined" 
-	    			onKeyPress={this.catchReturn}  
-	    			onChange={this.onChange} 
+	    			<TextField className="searchInput" label="Pesquisar Música" margin="normal" variant="outlined"
+	    			onKeyPress={this.catchReturn}
+	    			onChange={this.onChange}
 	    			value={searchText}
 	    			InputProps={{
 	            endAdornment:
@@ -262,17 +272,22 @@ class SpotifyContent extends Component {
 	              </InputAdornment>
             }}
 	    			/>
-	    			{selectedArr.length > 0 && 
+	    			{selectedArr.length > 0 &&
 	    				<Button variant="contained" className="addButton" onClick={this.addToPlaylist} color="primary">
 	    					{selectedArr.length} Adicionar à playlist
 	    				</Button>
 	    			}
-	    			{(!searchResult && playlist.length > 0) && 
+	    			{(!searchResult && playlist.length > 0) &&
 	    				<Button variant="contained" className="addButton" onClick={this.toggleDialog} color="primary">
 	    					Analisar Playlist
 	    				</Button>
 	    			}
-	    			{(!searchResult && playlist.length === 0) && 
+						{(!searchResult && playlist.length > 0) &&
+	    				<Button variant="contained" className="addButton" onClick={this.clearAll} color="primary">
+	    					Limpar Playlist
+	    				</Button>
+	    			}
+	    			{(!searchResult && playlist.length === 0) &&
 	    				<Button variant="contained" className="addButton" onClick={this.toggleDialog} color="primary">
 	    					Inserir IDs
 	    				</Button>

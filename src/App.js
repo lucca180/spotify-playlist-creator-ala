@@ -17,11 +17,10 @@ const theme = createMuiTheme({
 export const authEndpoint = 'https://accounts.spotify.com/authorize';
 // Replace with your app's client ID, redirect URI and desired scopes
 const clientId = "a0bd3685465a4548aceeb4be27de1550";
+//const redirectUri = "https://lucca180.github.io/spotify-playlist-creator-ala/";
 const redirectUri = "http://localhost:3000";
-const scopes = [
-  "user-read-currently-playing",
-  "user-read-playback-state",
-];
+
+const scopes = [];
 // Get the hash of the url
 const hash = window.location.hash
   .substring(1)
@@ -60,8 +59,9 @@ render() {
       <ThemeProvider theme={theme}>
         <div className="App">
           <header className="App-header">
-            <h1>Monte uma playlist e diremos que tipo de pessoa você é</h1>
-            <h2>de uma forma <i>totalmente</i> científica</h2>
+            <h1>PLAYLIST CREATOR</h1>
+            <h3>Crie sua playlist que um computador irá analisar e te julgar :)</h3>
+            <h3>Por Lucca Ricardo - <a href="https://colab.research.google.com/drive/12b1m7vedWXgqBkvALy55OXzGfQtRuZuS" target="_blank">Colab</a> / <a href="https://github.com/lucca180/spotify-playlist-creator-ala" target="_blank">Github</a></h3>
           {!this.state.token && (
             <a className="btn-login"
               href={`${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join("%20")}&response_type=token&show_dialog=true`}
